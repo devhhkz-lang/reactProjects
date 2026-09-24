@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JS Runtime & Async</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>JavaScript Runtime and Async</h1>
+
+    <section>
+      <h2>Tasks</h2>
+      <button id="run-all">Run All Tasks</button>
+      <p id="all-status"></p>
+      <ul id="task-list"></ul>
+    </section>
+    <section>
+      <h2>Sequential vs Concurrent</h2>
+      <button id="compare">Compare</button>
+      <p id="compare-result"></p>
+    </section>
+
+    <section>
+      <h2>Event Loop Demo</h2>
+      <p>Сначала напиши прогноз порядка вывода, потом жми кнопку.</p>
+      <textarea id="prediction" rows="8" placeholder="Мой прогноз: A, G, ..."></textarea>
+      <button id="run-demo">Run Event Loop Demo</button>
+      <h3>Actual output</h3>
+      <ol id="demo-output"></ol>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
